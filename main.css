@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  display: flex;
+  background-color: #f6c1a4;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-header {
+  padding-left: 50px;
+}
+
+.sub-header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 64px;
+  color: #000000;
+}
+.title {
+  padding-top: 100px;
+}
+.content-section {
+  margin-top: 40px;
+  padding-left: 50px;
+}
+.content-section p {
+  font-size: 20px;
+}
+
+.greeting {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.features-section {
+  display: flex;
+  background-color: #f5f5eb;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.item {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+.item p {
+  margin-top: 20px;
+  font-weight: bold;
+  flex-direction: column;
+  text-align: center;
+}
+.promo-section p {
+  margin-left: 50px;
+}
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f6c1a4;
+}
+.brand-name {
+  margin-top: 20px;
+  font-size: 20px;
+}
